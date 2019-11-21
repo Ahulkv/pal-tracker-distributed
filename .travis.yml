@@ -15,7 +15,7 @@ jobs:
     - stage: build and publish
       name: allocations
       language: java
-      jdk: openjdk11
+      jdk: openjdk8
       addons:
         mariadb: '10.2'
       install: skip
@@ -39,7 +39,7 @@ jobs:
     - stage: build and publish
       name: backlog
       language: java
-      jdk: openjdk11
+      jdk: openjdk8
       addons:
         mariadb: '10.2'
       install: skip
@@ -59,7 +59,7 @@ jobs:
     - stage: build and publish
       name: registration
       language: java
-      jdk: openjdk11
+      jdk: openjdk8
       addons:
         mariadb: '10.2'
       install: skip
@@ -79,7 +79,7 @@ jobs:
     - stage: build and publish
       name: timesheets
       language: java
-      jdk: openjdk11
+      jdk: openjdk8
       addons:
         mariadb: '10.2'
       install: skip
