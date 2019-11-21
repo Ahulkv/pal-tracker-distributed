@@ -6,8 +6,9 @@ env:
   - RELEASE_TAG="release-$TRAVIS_BUILD_NUMBER"
 stages:
   - build and publish
-  - deploy
   - migrate
+  - deploy
+
 if: tag IS blank
 
 jobs:
